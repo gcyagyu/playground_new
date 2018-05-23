@@ -7,7 +7,7 @@ import {
 
 const Main = () => (
   <div id="main">
-      <li><Link to='/rechartgraphradar'>Research</Link></li>
+    <li><Link to="/rechartgraphradar">Research</Link></li>
   </div>
 );
 
