@@ -11,6 +11,9 @@ import RechartPieChart from './components/RechartPieChart';
 import Fetch from './components/Fetch';
 import ObjectAssign from './components/ObjectAssign';
 import OnDrop from './components/DropZone';
+import SearchGeocode from './components/SearchGeocode';
+import Scrool from './components/Scrool';
+import ReactTables from './components/ReactTable';
 
 const AppRoute = () => (
   <BrowserRouter>
@@ -44,6 +47,21 @@ const AppRoute = () => (
         exact
         path="/dropzone"
         component={OnDrop}
+      />
+      <Route
+        exact
+        path="/searchgeocode"
+        component={SearchGeocode}
+      />
+      <Route
+        exact
+        path="/scrool"
+        component={Scrool}
+      />
+      <Route
+        exact
+        path="/reacttable"
+        component={ReactTables}
       />
     </Switch>
   </BrowserRouter>
